@@ -17,4 +17,4 @@ PATH.prepend = "${CRATE_ROOT}/bin"
 [origin."case(os)".linux."case(host-arch)".x86-64]
 binary = true
 url = "https://github.com/ccxtechnologies/crosstooler/releases/download/gnat-15.1.0-1/gnat-aarch64-linux64-x86_64-15.1.0-1.tar.gz"
-hashes = ["sha256:8940b079bd2359b58a7cbb8f96e09f411a82db7f59648412f1ffb3bd6b5abd18"]
+hashes = ["sha256:7173bcbbc2ad951fb7595b5d33a31f9e685bb7b69abe27cfce92b6206aec1b02"]
