@@ -1,0 +1,20 @@
+name = "gnat_aarch64_linux"
+version = "15.1.0-1"
+provides = ["gnat=15.1.0"]
+description = "The GNAT Ada compiler - aarch64 Cross-Compiler for Linux Target"
+maintainers = ["charles@ccxtechnologies.com"]
+maintainers-logins = ["charleseidsness"]
+licenses = "GPL-3.0-or-later AND GPL-3.0-or-later WITH GCC-exception-3.1"
+
+auto-gpr-with = false
+
+[configuration]
+disabled = true
+
+[environment]
+PATH.prepend = "${CRATE_ROOT}/bin"
+
+[origin."case(os)".linux."case(host-arch)".x86-64]
+binary = true
+url = "https://github.com/ccxtechnologies/crosstooler/releases/download/gnat-15.1.0-1/gnat-aarch64-linux64-x86_64-15.1.0-1.tar.gz"
+hashes = ["sha256:8940b079bd2359b58a7cbb8f96e09f411a82db7f59648412f1ffb3bd6b5abd18"]
