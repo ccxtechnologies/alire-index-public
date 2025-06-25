@@ -10,5 +10,5 @@ licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
 executables = ["crosstooler"]
 
 [origin]
-commit = "19c423b8e019846aa37d07aaf94764831a7e79e7"
+commit = "dce16e0d1b981d09031a334637bc9a4a3a995e48"
 url = "git+https://github.com//ccxtechnologies/crosstooler"
