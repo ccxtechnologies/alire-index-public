@@ -1,6 +1,6 @@
 name = "gnat_aarch64_elf"
-version = "14.2.0-1"
-provides = ["gnat=14.2.0"]
+version = "15.1.0-2"
+provides = ["gnat=15.1.0"]
 description = "The GNAT Ada compiler - aarch64 Cross-Compiler"
 maintainers = ["charles@ccxtechnologies.com"]
 maintainers-logins = ["charleseidsness"]
@@ -16,5 +16,5 @@ PATH.prepend = "${CRATE_ROOT}/bin"
 
 [origin."case(os)".linux."case(host-arch)".x86-64]
 binary = true
-url = "https://github.com/ccxtechnologies/GNAT-FSF-builds/releases/download/gnat-14.2.0-2/gnat-aarch64-elf-linux64-x86_64-14.2.0-1.tar.gz"
-hashes = ["sha256:0dbea9947103ff7f039b82ffb45ce8eef1e2c35191cd51b9f03640b56b73bd12"]
+url = "https://github.com/ccxtechnologies/crosstooler/releases/download/gnat-15.1.0-2/gnat-aarch64-elf-linux64-x86_64-15.1.0-2.tar.gz"
+hashes = ["sha256:774f9e7305875e51cef5a56a9f99ba4da295f68ca0ec460282bb28ba0093aeb1"]
