@@ -11,8 +11,8 @@ arch = ["gmp"]
 
 [[external]]
 kind = "version-output"
-version-command = [ "pkg-config", "--modversion", "gmp" ]
-version-regexp = ".*"
+version-command = [ "echo", "6.3.0" ]
+version-regexp = "([\\d\\.]+).*"
 
 # pkg-config requires further steps to make packages findable by
 # dependencies that Alire does not yet support
