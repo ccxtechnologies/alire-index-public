@@ -1,0 +1,19 @@
+description = "The GNU Multiple Precision Arithmetic Library"
+name = "libgmp"
+licenses = "LGPL-3.0-only"
+maintainers = ["charles@ccxtechnologies.com"]
+maintainers-logins = ["charleseidsness"]
+
+[[external]]
+kind = "system"
+[external.origin."case(distribution)"]
+arch = ["gmp"]
+
+[[external]]
+kind = "version-output"
+version-command = [ "pkg-config", "--modversion", "gmp" ]
+version-regexp = "([\\d\\.]+)[\r\n]*"
+
+# pkg-config requires further steps to make packages findable by
+# dependencies that Alire does not yet support
+available = false
