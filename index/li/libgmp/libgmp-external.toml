@@ -9,11 +9,6 @@ kind = "system"
 [external.origin."case(distribution)"]
 arch = ["gmp"]
 
-[[external]]
-kind = "version-output"
-version-command = [ "echo", "6.3.0" ]
-version-regexp = "^([\\d\\.]+).*"
-
 # pkg-config requires further steps to make packages findable by
 # dependencies that Alire does not yet support
 available = false
